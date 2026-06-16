@@ -18,14 +18,15 @@
 ### Шаг 2: Настройка переменных окружения
 
 В корне проекта создайте файл .env
+**НЕ В КОРНЕ ,А ГДЕ ЗАПУСКАЕТСЯ ПРОЕКТ**
 Заполните его следующими данными (замените YOUR_PASSWORD на ваш реальный пароль от PostgreSQL):
 
 ```env
 DB_HOST=localhost
-DB_PORT=5433
+DB_PORT=5432
 DB_NAME=meditrack_db
 DB_USER=postgres
-DB_PASSWORD=YOUR_PASSWORD
+DB_PASSWORD=1234
 ```
 ### Шаг 3: Сборка и запуск
 Откройте терминал в папке проекта.
