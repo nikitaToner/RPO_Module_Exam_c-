@@ -1,5 +1,5 @@
-№1
-СИМПТОМ:
+**№1
+СИМПТОМ:**
 Ошибка связанная с DotEnv (библиотека не устанавленна)
 
 Причина:
@@ -9,8 +9,8 @@
 dotnet add package DotNetEnv в терминал 
 
 
-№2
-СИМПТОМ:
+**№2
+СИМПТОМ:**
 Произошла ошибка при загрузке данных.
 
 Причина:
@@ -20,8 +20,8 @@ dotnet add package DotNetEnv в терминал
 добавление env.Load(); в public DatabaseService() 
 
 
-№3
-СИМПТОМ:
+**№3
+СИМПТОМ:**
 Не выводит ошибки в logs 
 
 Причина:
@@ -31,8 +31,8 @@ dotnet add package DotNetEnv в терминал
 Вместо MessageBox.shop ,нужно добавить Log.Error($"Произошла ошибка при загрузке данных. ({ex})");
 
 
-№4
-СИМПТОМ:
+**№4
+СИМПТОМ:**
 <img width="794" height="60" alt="image" src="https://github.com/user-attachments/assets/78d91f11-6d84-4f98-bc4f-7376889ca806" />
 
 Причина:
@@ -43,8 +43,8 @@ dotnet add package DotNetEnv в терминал
 Log.Error($"Произошла ошибка при загрузке данных. ({ex})");
 
 
-№5
-СИМПТОМ:
+**№5
+СИМПТОМ:**
 Не подключается через env 
 <img width="772" height="325" alt="image" src="https://github.com/user-attachments/assets/27659cc3-c8e0-4323-a637-e246647bacb0" />
 
