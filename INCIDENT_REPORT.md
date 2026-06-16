@@ -46,6 +46,7 @@ Log.Error($"Произошла ошибка при загрузке данных
 **№5
 СИМПТОМ:**
 Не подключается через env 
+
 <img width="772" height="325" alt="image" src="https://github.com/user-attachments/assets/27659cc3-c8e0-4323-a637-e246647bacb0" />
 
 
@@ -54,6 +55,7 @@ Log.Error($"Произошла ошибка при загрузке данных
 
 Решение:
 Перенес .env в папку debug
+
 <img width="1086" height="369" alt="image" src="https://github.com/user-attachments/assets/01b26196-e1d5-4cce-90a6-785c377310e9" />
 
 
@@ -61,4 +63,9 @@ Log.Error($"Произошла ошибка при загрузке данных
 **ЧИСТКА КОДА**
 <img width="539" height="89" alt="image" src="https://github.com/user-attachments/assets/5e59cdb8-bebd-43eb-b44c-4c756cb52db3" />
 <img width="467" height="178" alt="image" src="https://github.com/user-attachments/assets/1bfaa734-7ec7-4de6-8317-d3d7830416ed" />
+
+
+**Проект запускается **
+
+<img width="1891" height="788" alt="image" src="https://github.com/user-attachments/assets/6ee87c52-2cbb-47ff-a44a-eebcbf4a358d" />
 
