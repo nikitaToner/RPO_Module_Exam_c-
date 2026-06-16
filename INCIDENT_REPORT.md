@@ -64,8 +64,14 @@ Log.Error($"Произошла ошибка при загрузке данных
 <img width="539" height="89" alt="image" src="https://github.com/user-attachments/assets/5e59cdb8-bebd-43eb-b44c-4c756cb52db3" />
 <img width="467" height="178" alt="image" src="https://github.com/user-attachments/assets/1bfaa734-7ec7-4de6-8317-d3d7830416ed" />
 
-
-**Проект запускается **
+**Проект запускается**
 
 <img width="1891" height="788" alt="image" src="https://github.com/user-attachments/assets/6ee87c52-2cbb-47ff-a44a-eebcbf4a358d" />
+
+
+**Ошибки**
+<img width="754" height="515" alt="image" src="https://github.com/user-attachments/assets/167dd58c-ac44-4b77-8207-40bcd76fccdb" />
+
+
+
 
