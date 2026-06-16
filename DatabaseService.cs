@@ -14,12 +14,16 @@ namespace MediTrack
         {
             // Чтение из .env (если пакет подключен)
             Env.Load();
-            var host = DotNetEnv.Env.GetString("DB_HOST", "localhost");
-            var port = DotNetEnv.Env.GetString("DB_PORT", "5432");
-            var db = DotNetEnv.Env.GetString("DB_NAME", "meditrack_db");
-            var user = DotNetEnv.Env.GetString("DB_USER", "postgres");
-            var pass = DotNetEnv.Env.GetString("DB_PASSWORD", "");
-
+            var host = DotNetEnv.Env.GetString("DB_HOST");
+            var port = DotNetEnv.Env.GetString("DB_PORT");
+            var db = DotNetEnv.Env.GetString("DB_NAME");
+            var user = DotNetEnv.Env.GetString("DB_USER");
+            var pass = DotNetEnv.Env.GetString("DB_PASSWORD");
+             if (host == null || port == null || db == null || user == null || pass == null)
+             {
+                 Log.Warning("Некоторые переменные окружения не найдены!\nОбратитесь к ПО админу");
+                 return; 
+             }
             _connectionString = $"Host={host};Port={port};Database={db};Username={user};Password={pass};";
         }
 
@@ -38,8 +42,9 @@ namespace MediTrack
             }
             catch (Exception ex)
             {
-                
-                System.Windows.MessageBox.Show("Произошла ошибка при загрузке данных.");
+                //нельзя такое
+                //System.Windows.MessageBox.Show("Произошла ошибка при загрузке данных.");
+                Log.Error($"Произошла ошибка при загрузке данных. ({ex})");
             }
             return table;
         }
