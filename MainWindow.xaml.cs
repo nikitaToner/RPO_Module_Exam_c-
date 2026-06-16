@@ -20,7 +20,7 @@ namespace MediTrack
             
             if (data.Rows.Count > 0)
             {
-                MessageBox.Show($"Успешно загружено {data.Rows.Count} записей из БД.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                Log.Information($"Успешно загружено {data.Rows.Count} записей из БД.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
     }
